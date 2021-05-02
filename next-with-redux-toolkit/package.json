@@ -1,0 +1,31 @@
+{
+  "name": "next-with-redux-toolkit-and-tailwind",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "format": "prettier --write \"**/*.{js,jsx,json,scss}\""
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
+    "@tailwindcss/forms": "^0.2.1",
+    "axios": "^0.21.1",
+    "next": "10.0.8",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-redux": "^7.2.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.8",
+    "postcss-import": "^14.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.3"
+  }
+}
